@@ -18,7 +18,7 @@ import models.Employee;
 /**
  * Servlet Filter implementation class LoginFilter
  */
-@WebFilter("/aaaaaaa")
+@WebFilter("/*")
 public class LoginFilter implements Filter {
 
     /**
