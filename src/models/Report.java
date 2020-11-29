@@ -61,6 +61,28 @@ public class Report {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+    @Column(name = "cofirmed_at", nullable = false)
+    private String confirmed_at;
+
+    @Column(name = "finished_at", nullable = false)
+    private String finished_at;
+
+    public String getFinished_at() {
+        return finished_at;
+    }
+
+    public void setFinished_at(String finished_at) {
+        this.finished_at = finished_at;
+    }
+
+    public String getConfirmed_at() {
+        return confirmed_at;
+    }
+
+    public void setConfirmed_at(String confirmed_at) {
+        this.confirmed_at = confirmed_at;
+    }
+
     public Integer getId() {
         return id;
     }
